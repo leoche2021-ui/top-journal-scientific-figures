@@ -1,0 +1,44 @@
+{
+  "output": "user_batch_outputs",
+  "shared": {
+    "group_order": [
+      "Control",
+      "Exposed"
+    ],
+    "colors": {
+      "Control": "#4477AA",
+      "Exposed": "#CC6677"
+    },
+    "size_mm": [
+      90,
+      70
+    ],
+    "formats": [
+      "svg",
+      "pdf",
+      "png"
+    ],
+    "ylim": [
+      7,
+      18
+    ]
+  },
+  "figures": [
+    {
+      "id": "synthetic_demo",
+      "source": "demo_replicates.csv",
+      "group": "condition",
+      "value": "signal",
+      "unit_id": "unit_id",
+      "experimental_unit_confirmed": true,
+      "replicate_level": "experimental_unit",
+      "unit_description": "synthetic independent units (demonstration only)",
+      "design": "independent",
+      "missing_policy": "omit_report",
+      "measurement_label": "Synthetic signal",
+      "units": "a.u.",
+      "group_label": "Illustrative condition",
+      "seed": 42
+    }
+  ]
+}

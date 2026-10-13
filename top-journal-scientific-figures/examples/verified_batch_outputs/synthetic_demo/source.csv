@@ -1,0 +1,9 @@
+unit_id,condition,signal
+C1,Control,9
+C2,Control,10
+C3,Control,10
+C4,Control,11
+E1,Exposed,12
+E2,Exposed,14
+E3,Exposed,15
+E4,Exposed,NA

@@ -1,0 +1,2 @@
+From this directory: python scripts/figure_pipeline.py config.json
+Dependencies: numpy, matplotlib, Pillow.

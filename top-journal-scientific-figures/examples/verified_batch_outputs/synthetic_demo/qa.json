@@ -1,0 +1,40 @@
+{
+  "outside_canvas": [],
+  "small_text": [],
+  "possible_text_overlaps": [],
+  "exports": [
+    {
+      "file": "synthetic_demo.svg",
+      "bytes": 9837,
+      "editable_text_present": true
+    },
+    {
+      "file": "synthetic_demo.pdf",
+      "bytes": 21152
+    },
+    {
+      "file": "synthetic_demo.png",
+      "bytes": 91991,
+      "pixels": [
+        2125,
+        1653
+      ],
+      "dpi": [
+        599.9988,
+        599.9988
+      ],
+      "dimensions_match": true
+    }
+  ],
+  "resolved_fonts": [
+    "Arial.ttf"
+  ],
+  "manual_review_required": [
+    "data-to-source correspondence",
+    "text vs points/error bars",
+    "scientific interpretation",
+    "color vision simulation",
+    "PDF font embedding if PDF submitted"
+  ],
+  "status": "needs_visual_review"
+}

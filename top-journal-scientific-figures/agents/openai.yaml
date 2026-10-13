@@ -1,0 +1,4 @@
+interface:
+  display_name: "顶刊科研图表美学与生成"
+  short_description: "可信科研绘图、批量统一与数据审计"
+  default_prompt: "Use $top-journal-scientific-figures to turn my dataset into a publication-ready multi-panel scientific figure with top-journal aesthetics."

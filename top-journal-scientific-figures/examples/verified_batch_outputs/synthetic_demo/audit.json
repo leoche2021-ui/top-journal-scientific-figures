@@ -1,0 +1,79 @@
+{
+  "source": "demo_replicates.csv",
+  "sha256": "135f5ebe2b645d697106051e6c497b27483166f69fe56f938cfaeb6b9f7aefe3",
+  "row_count": 8,
+  "column_candidates": {
+    "unit_id": {
+      "nonempty": 8,
+      "numeric_parse_count": 0,
+      "distinct_count": 8,
+      "role": "unconfirmed"
+    },
+    "condition": {
+      "nonempty": 8,
+      "numeric_parse_count": 0,
+      "distinct_count": 2,
+      "role": "unconfirmed"
+    },
+    "signal": {
+      "nonempty": 8,
+      "numeric_parse_count": 7,
+      "distinct_count": 7,
+      "role": "unconfirmed"
+    }
+  },
+  "config": {
+    "id": "synthetic_demo",
+    "source": "demo_replicates.csv",
+    "group": "condition",
+    "value": "signal",
+    "unit_id": "unit_id",
+    "experimental_unit_confirmed": true,
+    "replicate_level": "experimental_unit",
+    "unit_description": "synthetic independent units (demonstration only)",
+    "design": "independent",
+    "missing_policy": "omit_report",
+    "measurement_label": "Synthetic signal",
+    "units": "a.u.",
+    "group_label": "Illustrative condition",
+    "seed": 42
+  },
+  "excluded_rows": [
+    {
+      "csv_row": 9,
+      "reason": "missing measurement",
+      "unit_id": "E4",
+      "group": "Exposed"
+    }
+  ],
+  "transformations": [],
+  "statistics": "descriptive only; mean ± sample SD",
+  "versions": {
+    "python": "3.9.6",
+    "numpy": "1.26.4",
+    "matplotlib": "3.9.4"
+  },
+  "summaries": {
+    "Control": {
+      "n": 4,
+      "mean": 10.0,
+      "sd": 0.816496580927726
+    },
+    "Exposed": {
+      "n": 3,
+      "mean": 13.666666666666666,
+      "sd": 1.5275252316519468
+    }
+  },
+  "plotted_rows": [
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8
+  ],
+  "warnings": [],
+  "preprocessing": []
+}
