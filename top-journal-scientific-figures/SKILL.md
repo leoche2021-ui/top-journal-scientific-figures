@@ -7,7 +7,7 @@ metadata:
 
 # Top-Journal Scientific Figures
 
-中文名称：顶刊科研图表美学与生成。Use accurate, readable figures with quiet hierarchy. Treat journal aesthetics as adaptable design references; claim submission compliance only against verified requirements for the exact journal, article type, and submission stage.
+Use accurate, readable figures with quiet hierarchy. Treat journal aesthetics as adaptable design references; claim submission compliance only against verified requirements for the exact journal, article type, and submission stage.
 
 ## Workflow
 
